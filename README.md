@@ -161,7 +161,7 @@ Make sure you have Docker installed on your machine.
 docker-compose up --build
 ```
 
-This command will build the Docker image and start the FastAPI application in a container.
+This command will build the Docker image based on `Dockerfile` and start the FastAPI application in a container.
 
 ## Access the API
 
