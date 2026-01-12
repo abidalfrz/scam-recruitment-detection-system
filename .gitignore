@@ -1,0 +1,4 @@
+__pycache__
+*.npy
+data/
+main_cpy.ipynb

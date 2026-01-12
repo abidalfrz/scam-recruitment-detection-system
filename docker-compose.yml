@@ -1,0 +1,13 @@
+services:
+  app:
+    build: .
+    container_name: scam-rec-detection-app
+    ports:
+      - "8000:8000"
+    volumes:
+      - .:/app
+      - ./artifacts:/app/artifacts
+    environment:
+      - WATCHFILES_FORCE_POLLING=true
+
+  
