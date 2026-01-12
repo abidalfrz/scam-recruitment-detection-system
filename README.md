@@ -12,7 +12,6 @@ This project aims to:
 - **Develop a robust NLP model** that can accurately classify job postings as legitimate or scam.
 - **Prevent financial and data loss** for job seekers by identifying fraudulent job listings.
 - **Facilitate safer job search experiences** through automated scam detection.
-- **Optimize prediction reliability** by evaluating models using **ROC-AUC Score** and **Weighted F1-Score** to handle class imbalance.
 
 ---
 
